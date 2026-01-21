@@ -19,13 +19,16 @@ namespace Conversions
             long bigNumber = Convert.ToInt64(textBigNumber);
             Console.WriteLine(bigNumber);
 
-            double negative = -55.2D;
+            string textNegative = "-55.2";
+            double negative = Convert.ToDouble(textNegative);
             Console.WriteLine(negative);
 
-            float precision = 5.000001F;
+            string textPrecision = "5.000001";
+            float precision = Convert.ToSingle(textPrecision);
             Console.WriteLine(precision);
 
-            decimal money = 14.99M;
+            string textMoney = "14.99";
+            decimal money = Convert.ToDecimal(textMoney);
             Console.WriteLine(money); 
 
             Console.ReadLine();
